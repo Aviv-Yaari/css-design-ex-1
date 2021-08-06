@@ -1,0 +1,55 @@
+@import url('./fonts.css');
+@import url('./header.css');
+@import url('./main-content.css');
+@import url('./footer.css');
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: lato-regular, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-layout {
+    max-width: 981px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.logo {
+    font-family: eurofurence, sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    cursor: default;
+}
+
+.logo .dot {
+    color: #58C93A;
+}
+
+.clickable:hover {
+    color: #58C93A;
+    border-color: #58C93A;
+    cursor: pointer;
+}
+
+.clickable:active {
+    color: #31e200;
+    border-color: #31e200;
+}
+
+@media (min-width: 740px) {
+    .main-layout {
+        padding: 0;
+    }
+}
