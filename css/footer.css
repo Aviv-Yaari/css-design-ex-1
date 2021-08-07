@@ -23,6 +23,25 @@
     width: 2.5625em;
     background-color: #E5E5E5;
     cursor: pointer;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social-fb {
+    background-image: url('/images/social-01.png');
+}
+
+.social-twitter {
+    background-image: url('/images/social-02.png');
+}
+
+.social-behance {
+    background-image: url('/images/social-03.png');
+}
+
+.social-dribbble {
+    background-image: url('/images/social-04.png');
 }
 
 .social-fb:hover {
@@ -33,10 +52,10 @@
     background-color: #08a4ff;
 }
 
-.social-be:hover {
-    background-color: #5208ff;
+.social-behance:hover {
+    background-color: #0054F7;
 }
 
-.social-circle:hover {
-    background-color: #fbff08;
+.social-dribbble:hover {
+    background-color: #EA4C89;
 }

@@ -53,10 +53,10 @@
     .navbar:not(.expanded) {
         transform: scaleY(0);
     }
-    .navbar.expanding {
+    .navbar.expanded {
         animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     }
-    .navbar.collapsing {
+    .navbar.collapsed {
         animation: scale-down-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     }
     .btn-expand-nav {
