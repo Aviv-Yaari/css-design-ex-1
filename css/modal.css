@@ -11,9 +11,12 @@
 }
 
 .modal:not(.visible) {
-    transition: opacity 0.2s;
     opacity: 0;
     pointer-events: none;
+}
+
+.modal.hidden {
+    transition: opacity 0.2s;
 }
 
 .modal.visible {

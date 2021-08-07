@@ -29,19 +29,19 @@
 }
 
 .social-fb {
-    background-image: url('/images/social-01.png');
+    background-image: url('../images/social-01.png');
 }
 
 .social-twitter {
-    background-image: url('/images/social-02.png');
+    background-image: url('../images/social-02.png');
 }
 
 .social-behance {
-    background-image: url('/images/social-03.png');
+    background-image: url('../images/social-03.png');
 }
 
 .social-dribbble {
-    background-image: url('/images/social-04.png');
+    background-image: url('../images/social-04.png');
 }
 
 .social-fb:hover {
